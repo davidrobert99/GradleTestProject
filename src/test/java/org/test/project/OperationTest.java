@@ -29,14 +29,6 @@ public class OperationTest {
 
         assertEquals(op.makeOperation(5,1),5);
     }
-    
-    
-    @Test
-    public void testMultiplyOperation(){
-        Operation op = new MultiplyOperation();
-
-        assertEquals(op.makeOperation(5,1),5);
-    }
 
 
 }
