@@ -32,10 +32,10 @@ public class OperationTest {
     
     
     @Test
-    public void testMultiplyOperation2(){
+    public void testMultiplyOperation(){
         Operation op = new MultiplyOperation();
 
-        assertEquals(op.makeOperation(5,1),15);
+        assertEquals(op.makeOperation(5,1),5);
     }
 
 
